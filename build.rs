@@ -32,7 +32,6 @@ fn main() {
     autocxx_build::Builder::new("src/lib.rs", &[&dst.join("include/lensfun")])
         .build()
         .unwrap()
-        .flag_if_supported("-std=c++17")
         .flag_if_supported("-Wno-deprecated-declarations")
         .compile("bindings");
 
