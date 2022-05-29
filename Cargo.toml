@@ -10,3 +10,4 @@ autocxx-build = "0.22.1"
 
 [dependencies]
 autocxx = "0.22.1"
+cxx = "1.0.68"
